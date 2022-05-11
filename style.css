@@ -1,0 +1,47 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: poppins;
+}
+
+.title {
+    margin: 3rem 5rem;
+}
+.title > h2 {
+    color: gray;
+}
+.cp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-cp, .bottom-cp {
+    display: flex;
+    margin-bottom: 3rem;
+    gap: 3rem;
+}
+.cp-card {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-block: 1rem;
+}
+.cp-card > * {
+    padding: .5rem 2rem;
+    
+}
+.cp-contact {
+    display: flex;
+    gap: 3rem;
+}
+.cp-contact > div {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.cp-info {
+    display: flex;
+    gap: .5rem;
+}
